@@ -1,6 +1,6 @@
 # Extendable Swap
 
-An extendable swap represents a forward swap agreement with an option of extending the swap for another term.
+An extendable swap represents a forward swap agreement with an option of extending the swap for another term. Other non traditional swaps include accumulator swap (see https://finpricing.com/lib/FxAccumulator.html)
 
 The valuation model assumes the swap rates for different terms to be correlated log-normally distributed random variables and uses the Haselgrove integration method for pricing the deal. 
 
@@ -15,7 +15,5 @@ To provide the ability of controlling interest and swap rates for our testing, t
 Relating the test values to the notional amount may not be the right measure in every case. If the absolute prices are important, the users should exercise caution in the cases of volatilities exceeding 50% combined with time lag between the deal and start date longer than 3 years or in the cases of interest rates exceeding strike.
 
 References:
-
-https://finpricing.com/lib/EqConvertible.html
 
 https://osf.io/23w9h/download
